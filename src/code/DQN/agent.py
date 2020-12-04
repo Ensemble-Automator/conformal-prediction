@@ -86,7 +86,7 @@ class Agent():
             if(self.eval):
                 action = action_val
                 softmax = nn.Softmax(dim=1); prob = softmax(action)
-                return np.argmax(action.cpu().data.numpy()), np.max(prob.cpu().data.numpy())
+                return np.argmax(action.cpu().data.numpy()), prob.cpu().data.numpy()
             
             return np.argmax(action_val.cpu().data.numpy())
         
