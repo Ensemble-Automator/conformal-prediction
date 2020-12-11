@@ -2,8 +2,25 @@
 Quantify uncertainty in any ML model
 
 - Conformal prediction is a framework that quantifies uncertainity by estimating the confidence and credibility of test point predictions.
-- Currently, our model is able to accurately predict (100%) on new predictions when it has a confidence ≥ 75%. The model used is a simple ANN for loan risk
-calculation. 
 - Conformal prediction works using a nearest centroid classifier, along with computing non-conformal and p-value score.
-- So far, our framework has been testing on ANN's only. We're currently working on testing it on RNN and CNN's.
+- Currently, our model is able to accurately predict on new predictions with reliable accuracy on ANN, CNN, and DQN models.
 * This is part of our project on ML interability via Actor-Critic networks.
+
+
+#### To run our models:
+
+- Fork/download this repo.
+- `cd src/code/pick_your_model`
+- run the respective jupyter notebook by going to terminal on the root directory of this project and entering `jupyter notebook` or in VSCode.
+
+#### Requirements
+
+1. PyTorch
+2. TorchVision
+3. Numpy
+4. gym
+5. pandas
+6. matplotlib
+7. keras
+8. time
+9. tqdm 
