@@ -1,5 +1,17 @@
-# conformal-prediction
-Quantify uncertainty in any ML model
+<h1 align="center">
+  Ensemble Automator
+</h1>
+
+<h3 align="center">
+  Conformal Prediction framework for Uncertainity Quantification of Stochastic Models.
+  <br>
+</h3>
+
+<br><br>
+
+
+[![YouTube video](http://img.youtube.com/vi/4x1ZGhMcaI0/0.jpg)](https://www.youtube.com/watch?v=4x1ZGhMcaI0 "Demo YouTube video")
+
 
 - Conformal prediction is a framework that quantifies uncertainity by estimating the confidence and credibility of test point predictions.
 - Conformal prediction works using a nearest centroid classifier, along with computing non-conformal and p-value score.
