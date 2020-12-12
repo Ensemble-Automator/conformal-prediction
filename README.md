@@ -28,6 +28,7 @@
 
 #### Requirements
 
+0. TensorFlow
 1. PyTorch
 2. TorchVision
 3. Numpy
